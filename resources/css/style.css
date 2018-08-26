@@ -75,7 +75,9 @@ body {
   .menu ul {
     display: none;
   }
-
+  .conatiner1 img{
+    display: none;
+  }
   .menu ul.truncated-menu{
     display: block;
     text-align:center;
