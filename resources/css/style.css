@@ -45,9 +45,25 @@ body {
 .menu{
   padding-right: 1.3rem;
 }
-.menu img{
-  height:2rem;
-  margin-top:1rem;
+@media only screen and (max-width: 480px){
+  .menu ul {
+    display: none;
+  }
+
+  .menu ul.truncated-menu{
+    display: block;
+  }
+
+}
+@media only screen and (max-width: 1024px){
+  .menu ul {
+    display: block;
+  }
+
+  .menu ul.truncated-menu{
+    display: none;
+    height:3.6rem;
+  }
 }
 .company1{
   display: flex;
@@ -78,6 +94,12 @@ body {
   margin-right: -2rem;
   background-color: #D3D3D3;
   width:100%;
+}
+@media only screen and (max-width: 480px){
+ .conatiner2{
+   width:90%;
+   margin:auto;
+ }
 }
 .banner img{
   padding: 1.8rem 1.3rem;
@@ -325,3 +347,8 @@ body {
  .privacy{
    margin-right:1rem;
  }
+ @media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
+}
