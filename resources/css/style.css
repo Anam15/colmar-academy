@@ -45,7 +45,7 @@ body {
 .menu{
   padding-right: 1.3rem;
 }
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 560px){
   .menu ul {
     display: none;
   }
@@ -99,6 +99,8 @@ body {
  .conatiner2{
    width:90%;
    margin:auto;
+   display: flex;
+   flex-direction: row;
  }
 }
 .banner img{
