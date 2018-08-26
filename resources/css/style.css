@@ -95,13 +95,32 @@ body {
   background-color: #D3D3D3;
   width:100%;
 }
-@media only screen and (max-width: 480px){
+/*@media only screen and (max-width: 480px){
  .conatiner2{
    width:90%;
    margin:auto;
    display: flex;
    flex-direction: row;
  }
+}*/
+@media only screen and (max-width: 470px) {
+  .main-banner {
+    height: 15rem;
+  }
+
+  .content2 {
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+
+  .content2 h1 {
+    font-size: .77rem;
+  }
+
+  .content2 p{
+    font-size: 1rem;
+  }
 }
 .banner img{
   padding: 1.8rem 1.3rem;
