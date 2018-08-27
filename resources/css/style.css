@@ -55,7 +55,7 @@ body {
   }
 
 }*/
-@media only screen and (max-width: 470px) {
+/*@media only screen and (max-width: 470px) {
   .conatiner4,
   .container5{
     flex-wrap: wrap;
@@ -70,7 +70,7 @@ body {
     width: 90%;
     margin: 0.5rem auto;
   }
-}
+}*/
 @media only screen and (max-width: 1024px) {
   .container2{
     width: 47%;
@@ -403,7 +403,7 @@ body {
 @media only screen and (max-width: 1024px){
   .all{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width:90%;
     margin:auto;
   }
