@@ -408,6 +408,11 @@ body {
     margin:auto;
   }
 }
+@media only screen and (max-width: 470px){
+  .container9, .container8,.content10{
+    display:none;
+  }
+}
  @media only screen and (max-width: 470px) {
   footer {
     text-align: center;
