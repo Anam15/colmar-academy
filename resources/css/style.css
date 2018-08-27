@@ -395,6 +395,19 @@ body {
  .privacy{
    margin-right:1rem;
  }
+ @media only screen and (max-width: 1024px){
+   .banner5, .content8{
+     display:none;
+   }
+ }
+@media only screen and (max-width: 1024px){
+  .all{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    margin:auto;
+  }
+}
  @media only screen and (max-width: 470px) {
   footer {
     text-align: center;
