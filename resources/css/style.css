@@ -401,13 +401,17 @@ body {
  }
  @media only screen and (max-width: 1024px){
    .banner5, .content8, .banner1,.content3,
-    .container1 p, .container img{
+   .container1 p, .container img{
      display:none;
    }
    .contnet8 h1{
      display:block;
    }
+   .content9 h1{
+     text-align: center;
+   }
  }
+
 @media only screen and (max-width: 1024px){
   .all{
     display: flex;
