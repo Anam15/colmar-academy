@@ -148,6 +148,10 @@ body {
   .content2 p{
     font-size: 1rem;
   }
+  .banner img{
+    padding: 0rem 0rem;
+    margin: auto;
+  }
 }
 .banner img{
   padding: 1.8rem 1.3rem;
